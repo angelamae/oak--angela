@@ -1,0 +1,71 @@
+body					{ 	background-color:#f5f5f5; }
+
+#cc						{ 		
+							height:100%; width:100%; top:0px; display:block;
+							position:relative; margin:0 auto;
+						}		
+
+#logo					{	margin-left:90px;  margin-top:40px; font-family:Courier New; font-size:25px; }
+
+#menu ul				{	margin-top:-70px; }		
+
+								
+#menu ul li 			{   text-decoration:none; display:inline; 
+							padding:15px; color:black; font-size:21px;
+							font-family: Kalinga; float:right;
+						} 
+
+#menu ul li:hover a		{   color:gray; }
+
+#content				{   text-align:center; margin-top:150px; font-size: 20px; }
+
+#tbl1					{   text-align:center; width:1200px; font-family:Kalinga; font-size:18px;}
+
+#tbl2					{	 font-family:Kalinga; font-size:15px; color:gray; width:1200px;}
+
+#blue					{	background-color:#002b49; font-size:20px; padding-top: 15px; width:1100px; height:80px; 
+							font-family:Kalinga; font-size:25px;
+						}
+
+#visit 					{	font-size:18px;}
+
+
+#smart					{   color: white; background-color: #7ad4ce; }
+
+#smart:hover			{   color: white; background-color: #48c4bb; }
+
+#prod					{	color: white; background-color: #fdc44f; }
+
+#prod:hover				{	color: white; background-color: #fcae0d; }
+
+
+
+button					{    background-color: #93b8ca; border: 0 none; border-radius: 3px; color: white;
+							 display: inline-block; font-weight: 600; padding: 11px 18px 8px;
+    						 text-decoration: none; 
+    					}
+
+button:hover			{	opacity:0.7; }
+
+
+#icon:hover				{	opacity:0.5; }
+
+a:link 					{	color: black; text-decoration: none; }	
+
+a:visited 				{	color: black; text-decoration: none; }
+
+a:hover 				{	color: gray;}
+
+	
+
+#work					{	color:#93b8ca; font-family: Corbel; font-size:25px; font-weight:bolder;}
+
+#work:hover				{	opacity:0.6;}
+
+
+
+footer					{	position:absolute; left:0; bottom:0; width:1250px; height:50px;
+						    text-align:center;
+							padding-top:12px; font-family:Kalinga; color:gray; font-size:12px; 
+						}
+
