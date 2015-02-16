@@ -5,88 +5,76 @@
 	</head>
 
 	<body>
-		<div id="cc">
-			<div style="position:relative; top:0px; margin:0 auto; display:block; width:1250px; height: auto;">	
-	
-						
-					<div id="logo">
-							<a href="#" style="font-size:50px;">oak</a>
-							<span>.is /</span>
-							<span style="border-bottom: 0.1px dotted;">home</span>						
-					</div>
+		<div id="banner">
+							
+				<a href="#">oak</a>
+				<span id="fontsz">.is /</span>
+				<span id="dotted">home</span>				
 			
-					<div id="menu">
-						<ul>
-						<li><a href="#">blog</li>
-						<li><a href="#">work</li>
-						<li><a href="#">products</li>
-						<li><a href="#">about</li>
-						</ul>					
-					</div>
-
-					<div id="content">
-					<p style="font-family:Kalinga; letter-spacing:1.5px; font-size:48px;">
-						We make
-						<a id="smart" href="#" >smart</a>
-						tools for
-						<a id="prod" href="#">productive</a>
-						people.
-					</p>
-					<br><br>
-					<table id="tbl1" align="center">
-						<tr>
-							<td>
-								<a id="icon" href="#"><img src="drop.png"></a><br>
-								<h1>Dropmark</h1>
-								Dead simple collaboration <br> in the cloud.<br><br>
-								<button id="visit" type="button">VISIT  <img src="button.png" width="7"></button> 
-							</td>
-							<td>
-								<a id="icon" href="#"><img src="sym.png"></a>
-								<h1>Symbolset</h1>
-								Symbolsets are semantic <br> symbol fonts.<br><br>
-								<button id="visit" type="button">VISIT  <img src="button.png" width="7"></button>
-							</td>
-							<td>
-								<a id="icon" href="#"><img src="site.png"></a>
-								<h1>Siteleaf</h1>
-								A lightweight way to create <br> and manage websites. <br><br>
-								<button id="visit" type="button">VISIT  <img src="button.png" width="7"></button>
-							</td>
-						</tr>
-					</table>
-					<br><br><br><br>
-					<button id="blue" type="button"><img src="sun.png" width="43">  Download <b>Blue:</b>colorful weather for iPhone and iPad.</button>
-					<br><br><br><br>
-					<p style="font-family:Kalinga; font-size:29px; color:#93b8ca; ">
-						We work with companies like<br>Apple, NASDAQ, OkCupid, and UNICEF.<br>
-						<a id="work" href="#">WORK WITH US    <img src="button_b.png" width="9"></a>
-					</p>
-					<br><br><br>
-					<table id="tbl2" align="center">
-						<tr>
-							<td>
-								<a href="#">BLOG</a><br><br>
-								<a href="#"><b>Seconds Since Tupac</b></a><br>
-								Introducing Seconds Since Tupac (Tupac Time), now available on GitHub.<br>
-								Tupac Time (not to be confused with Epoch Time or Unix Time) is a system<br> 
-								for describing instants in time, defined as the number of seconds that have<br> 
-								elapsed since...<br><br>
-								<button id="visit" type="button">CONTINUE READING <img src="button.png" width="7"></button>
-							</td>
-							<td>
-								<a class="twitter-timeline" width="526px" height="252px" href="//twitter.com/search?q=%40twitterdev" data-widget-id="486744238403489792">
-     							Tweets about "@twitterdev"</a>
- 
-								<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-							</td>
-						</tr>	
-
-					</table>
-					<br><br><br><br><br>
-					<footer><a href="#">Made with <img src="hart.png" height="10"> in New York</a></footer>		
-				</div>
+			<div id="menu">
+				<ul>
+					<li><a href="#">about</li>
+					<li><a href="#">products</li>
+					<li><a href="#">work</li>
+					<li><a href="#">blog</li>				
+				</ul>					
 			</div>
 		</div>
+					
+		<div id="content">
+			<p id="sentence">We make <a href="#" id="smart">smart</a> tools for <a id="prod" href="#">productive</a> people.</p>
+
+			<div class="tbl">
+				<div class="tblcontent">
+					<a class="icon" href="#"><img src="drop.png"></a>
+					<h1>Dropmark</h1>
+					<p>Dead simple collaboration in the cloud.</p>
+					<button class="visit" type="button">VISIT  <img src="button.png"></button> 
+				</div>
+
+				<div class="tblcontent">
+					<a class="icon" href="#"><img src="sym.png"></a>
+					<h1>Symbolset</h1>
+					<p>Symbolsets are semantic symbol fonts.</p>
+					<button class="visit" type="button">VISIT  <img src="button.png"></button>
+				</div>
+
+				<div class="tblcontent">
+					<a class="icon" href="#"><img src="site.png"></a>
+					<h1>Siteleaf</h1>
+					<p>A lightweight way to create and manage websites.</p>
+					<button class="visit" type="button">VISIT  <img src="button.png"></button>
+				</div>
+			</div>
+
+			<div id="blue">
+				<a href="#"><img src="sun.png"> Download <b>Blue:</b> colorful weather for iPhone and iPad.</a>
+			</div>
+
+			<div id="work">
+				<p>We work with companies like<br>Apple, NASDAQ, OkCupid, and UNICEF.</p>
+				<a href="#">WORK WITH US  <img src="button_b.png"></a>
+			</div>
+
+			<div class="tbl">
+				<div class="tblcontent2">
+					<h4><a href="#">BLOG</a></h4>
+					<a  id="tupac" href="#"><b>Seconds Since Tupac</b></a>
+					<p>Introducing Seconds Since Tupac (Tupac Time), now available on GitHub. Tupac Time (not to be confused with Epoch Time or Unix Time) is a system for describing instants in time, defined as the number of seconds that have elapsed since...</p>
+					<button class="visit" type="button">CONTINUE READING <img src="button.png"></button>
+				</div>
+				<div class="tblcontent2">
+					<a class="twitter-timeline" width="526px" height="252px" href="//twitter.com/search?q=%40twitterdev" data-widget-id="486744238403489792">Tweets about "@twitterdev"</a>
+
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.reateElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+				</div>
+			</div>
+			
+			</div>
+			<footer><a href="#">Made with <img src="hart.png"> in New York</a></footer>	
+							
+		</div>
+			
+		
 	</body>
 </html>

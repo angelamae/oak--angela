@@ -1,71 +1,204 @@
-body					{ 	background-color:#f5f5f5; }
+body{ 	
+	background-color:#f5f5f5; 
+	margin:30px auto;
+	max-width: 1210px;
+	font-size:19px;
+	font-family: Kalinga;
+}
 
-#cc						{ 		
-							height:100%; width:100%; top:0px; display:block;
-							position:relative; margin:0 auto;
-						}		
+#banner{	
+	font-family:Calisto MT; 
+	font-size:40px;	
+	display:block;					
+}
 
-#logo					{	margin-left:90px;  margin-top:40px; font-family:Courier New; font-size:25px; }
+#fontsz{
+	font-size: 24px;
+	font-family: Kalinga;
+}
 
-#menu ul				{	margin-top:-70px; }		
+#dotted{	
+	border-bottom: thin dotted;
+	font-size: 24px;
+	font-family: Kalinga;
+}
 
+a:link{	
+	color:black;
+	text-decoration: none; 
+}	
+
+a:visited{	
+	color: black; 
+	text-decoration: none; 
+}
+
+a:hover{	
+	color: gray;	
+}
+
+
+#menu{	
+	font-family: Kalinga;
+	font-size:22px;	
+	float:right;
+	margin-top: -10px;
+}		
 								
-#menu ul li 			{   text-decoration:none; display:inline; 
-							padding:15px; color:black; font-size:21px;
-							font-family: Kalinga; float:right;
-						} 
+#menu ul li{   
+	text-decoration:none; 
+	display:inline; 
+	padding:15px; 
+} 
 
-#menu ul li:hover a		{   color:gray; }
-
-#content				{   text-align:center; margin-top:150px; font-size: 20px; }
-
-#tbl1					{   text-align:center; width:1200px; font-family:Kalinga; font-size:18px;}
-
-#tbl2					{	 font-family:Kalinga; font-size:15px; color:gray; width:1200px;}
-
-#blue					{	background-color:#002b49; font-size:20px; padding-top: 15px; width:1100px; height:80px; 
-							font-family:Kalinga; font-size:25px;
-						}
-
-#visit 					{	font-size:18px;}
+#menu ul li:hover{   
+	color:gray;	
+}
 
 
-#smart					{   color: white; background-color: #7ad4ce; }
+#content{ 	
+	margin-top:80px;
+}
 
-#smart:hover			{   color: white; background-color: #48c4bb; }
+#sentence{	
+	font-size: 53px; 
+	text-align: center;
+}
 
-#prod					{	color: white; background-color: #fdc44f; }
+.tbl{	
+	display: table;
+	position: relative;
+}
 
-#prod:hover				{	color: white; background-color: #fcae0d; }
+.tblcontent{	
+	display: table-cell;
+	text-align:center;
+	padding:50px 70px 150px 70px;
+	width:1200px;
+}
 
+.tblcontent2{	
+	display: block;
+	float: left;
+	margin-right: 10%;
+	font-size: 17px;
+	width:40%;
+}
 
+#blue{	
+	background-color:#002b49;  
+	padding:20px; 
+	margin:0 auto;
+	font-family:Kalinga; 
+	font-size:27px;
+	text-align: center;	
+	border-radius: 5px;
+}
 
-button					{    background-color: #93b8ca; border: 0 none; border-radius: 3px; color: white;
-							 display: inline-block; font-weight: 600; padding: 11px 18px 8px;
-    						 text-decoration: none; 
-    					}
+#blue a{	
+	color: white;	
+}
 
-button:hover			{	opacity:0.7; }
+#blue:hover{	
+	opacity:0.6;	
+}
 
+#blue img{
+	width:43px;
+}
 
-#icon:hover				{	opacity:0.5; }
+.visit{	
+	font-size:18px;
+}
 
-a:link 					{	color: black; text-decoration: none; }	
+.visit img{
+	width:7px;
+}
 
-a:visited 				{	color: black; text-decoration: none; }
+#smart{   
+	color: white; 
+	background-color: #7ad4ce;
+	padding:3px;
+	border-radius:5px; 
+}
 
-a:hover 				{	color: gray;}
+#smart:hover{   
+	color: white; 
+	background-color: #48c4bb; 
+	padding:3px;
+	border-radius:5px; 
+}
 
-	
+#prod{	
+	color: white; 
+	background-color: #fdc44f; 
+	padding:3px;
+	border-radius:5px; 
+}
 
-#work					{	color:#93b8ca; font-family: Corbel; font-size:25px; font-weight:bolder;}
+#prod:hover{	
+	color: white; 
+	background-color: #fcae0d; 
+}
 
-#work:hover				{	opacity:0.6;}
+button{    
+	background-color: #93b8ca; 
+	border: 0 none; 
+	border-radius: 3px; 
+	color: white;
+	display: inline-block; 
+	font-weight: 600; 
+	padding: 11px 18px 8px;
+    text-decoration: none; 
+}
 
+button:hover{	
+	opacity:0.7; 
+}
 
+.icon:hover{	
+	opacity:0.5; 
+}
 
-footer					{	position:absolute; left:0; bottom:0; width:1250px; height:50px;
-						    text-align:center;
-							padding-top:12px; font-family:Kalinga; color:gray; font-size:12px; 
-						}
+#work{	
+	color:#93b8ca; 
+	padding: 100px 20px;
+	font-family: Kalinga; 
+	font-size:35px; 
+	text-align: center;
+	margin:0 auto;
+}
+
+#work a{	
+	color:#93b8ca;
+	font-size: 27px;
+	font-weight: bold;
+	font-family: Corbel;
+}
+
+#work img{
+	width:9px;
+}
+
+#work a:hover{	
+	opacity: 0.6;
+}
+
+#tupac{
+	font-size: 20px;
+	color: gray;
+}
+
+footer{	
+	bottom:0; 
+	text-align:center;
+	padding-top:100px; 
+	font-family:Kalinga; 
+	color:gray; 
+	font-size:14px; 
+}
+
+footer img{
+	width:15px;
+}
 
