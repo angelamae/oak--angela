@@ -9,7 +9,8 @@ body{
 #banner{	
 	font-family:Calisto MT; 
 	font-size:40px;	
-	display:block;					
+	display:block;	
+	word-wrap: break-word;				
 }
 
 #fontsz{
@@ -58,6 +59,8 @@ a:hover{
 
 #content{ 	
 	margin-top:80px;
+	word-wrap: break-word;
+	 
 }
 
 #sentence{	
@@ -67,20 +70,25 @@ a:hover{
 
 .tbl{	
 	display: table;
-	position: relative;
+	
 }
 
 .tblcontent{	
 	display: table-cell;
 	text-align:center;
-	padding:50px 70px 150px 70px;
-	width:1200px;
+	max-width:280px;
+	position: relative;
+   	float: left;
+	padding:120px 60px;
+
+	 
 }
 
 .tblcontent2{	
 	display: block;
+    max-width: 900px;
 	float: left;
-	margin-right: 10%;
+	margin-left: 50px;
 	font-size: 17px;
 	width:40%;
 }
@@ -93,6 +101,7 @@ a:hover{
 	font-size:27px;
 	text-align: center;	
 	border-radius: 5px;
+
 }
 
 #blue a{	
